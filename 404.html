@@ -18,81 +18,68 @@
 </head>
 <body>
 <a class="skip-link" href="#inhoud">Naar de inhoud</a>
-<div style="font-family: 'Source Sans 3', system-ui, sans-serif; color: #16191D; background: #FBFAF7; font-size: 18px; line-height: 1.6">
-<header style="background: #FFFFFF; border-bottom: 1px solid #E4E0D7">
-<div style="max-width: 1120px; margin: 0 auto; padding: 14px 32px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px">
-<a href="/" style="display: flex; align-items: center; gap: 12px; text-decoration: none; color: #16191D">
-<span style="width: 40px; height: 40px; border-radius: 10px; background: #16191D; color: #FFFFFF; display: inline-flex; align-items: center; justify-content: center; font-family: 'Roboto Slab', Georgia, serif; font-weight: 700; font-size: 17px">LZ</span>
-<span style="display: flex; flex-direction: column; line-height: 1.2"><span style="font-family: 'Roboto Slab', Georgia, serif; font-weight: 700; font-size: 18px">Lando Zeilstra</span><span class="lz-sub" style="font-size: 14px; color: #4B5159">Senior UX en product designer</span></span>
+<div class="page">
+<header class="site-header">
+<div class="site-header__inner">
+<a href="/" class="site-header__brand">
+<span class="site-header__logo" aria-hidden="true">LZ</span>
+<span class="site-header__name"><span class="site-header__title">Lando Zeilstra</span><span class="lz-sub text-meta">Senior UX en product designer</span></span>
 </a>
-<nav class="lz-nav" aria-label="Hoofdmenu" style="display: flex; flex-wrap: wrap; align-items: center; gap: 24px; font-size: 17px">
-<a href="/cases/" style="color: #16191D; text-decoration: none; font-weight: 400; padding: 10px 2px; border-bottom: 2px solid rgba(0,0,0,0)">Cases</a>
-<a href="/over-mij/" style="color: #16191D; text-decoration: none; font-weight: 400; padding: 10px 2px; border-bottom: 2px solid rgba(0,0,0,0)">Over mij</a>
-<a href="/cv/CV_Lando_Zeilstra.pdf" style="color: #16191D; text-decoration: none; padding: 10px 2px">CV (pdf)</a>
-<div style="display: inline-flex; border: 1px solid #8C877C; border-radius: 6px; overflow: hidden; font-size: 15px">
-<a href="/404.html" lang="nl" aria-current="true" style="background: #16191D; color: #FFFFFF; font-weight: 600; text-decoration: none; padding: 10px 12px; min-width: 44px; box-sizing: border-box; text-align: center">NL</a>
-<a href="/en/404.html" lang="en" aria-current="false" style="background: #FFFFFF; color: #16191D; text-decoration: none; padding: 10px 12px; min-width: 44px; box-sizing: border-box; text-align: center; border-left: 1px solid #8C877C">EN</a>
+<nav class="lz-nav site-nav" aria-label="Hoofdmenu">
+<a href="/cases/" class="site-nav__link">Cases</a>
+<a href="/over-mij/" class="site-nav__link">Over mij</a>
+<a target="_blank" rel="noopener" href="/cv/CV_Lando_Zeilstra.pdf" class="site-nav__cv">CV (pdf)<span class="visually-hidden"> (opent in een nieuw tabblad)</span></a>
+<div class="lang-switch">
+<a href="/404.html" lang="nl" aria-current="true" class="lang-switch__current">NL</a>
+<a href="/en/404.html" lang="en" aria-current="false" class="lang-switch__option">EN</a>
 </div>
-<a class="lz-cta" href="#contact" style="background: #B3261E; color: #FFFFFF; text-decoration: none; padding: 11px 20px; border-radius: 6px; font-weight: 600; min-height: 44px; box-sizing: border-box; display: inline-flex; align-items: center">Neem contact op</a>
+<a class="lz-cta site-nav__cta" href="#contact">Neem contact op</a>
 </nav>
 </div>
 </header>
 <main id="inhoud">
-<section style="max-width: 1120px; margin: 0 auto; padding: 96px 32px 56px">
-<p style="margin: 0 0 8px; font-family: 'Roboto Slab', Georgia, serif; font-weight: 700; font-size: clamp(72px, 16vw, 128px); line-height: 1; color: #B3261E">404</p>
-<h1 style="margin: 0 0 16px; font-family: 'Roboto Slab', Georgia, serif; font-weight: 700; font-size: clamp(30px, 6vw, 44px); line-height: 1.15">Deze pagina bestaat niet (meer)</h1>
-<p style="margin: 0 0 32px; font-size: 20px; color: #33383E; max-width: 620px">Misschien is de link verouderd of zit er een typfout in. Hieronder vind je mijn cases, of ga terug naar de homepage.</p>
-<div style="display: flex; flex-wrap: wrap; gap: 12px">
-<a href="/" style="background: #B3261E; color: #FFFFFF; text-decoration: none; padding: 14px 24px; border-radius: 6px; font-weight: 600">Naar de homepage</a>
-<a href="/cases/" style="border: 1.5px solid #16191D; color: #16191D; text-decoration: none; padding: 12.5px 22.5px; border-radius: 6px; font-weight: 600">Alle cases</a>
+<section class="not-found">
+<p class="not-found__code">404</p>
+<h1 class="not-found__title">Deze pagina bestaat niet (meer)</h1>
+<p class="not-found__lead">Misschien is de link verouderd of zit er een typfout in. Hieronder vind je mijn cases, of ga terug naar de homepage.</p>
+<div class="button-row">
+<a href="/" class="button button--primary">Naar de homepage</a>
+<a href="/cases/" class="button button--outline">Alle cases</a>
 </div>
 </section>
-<section style="max-width: 1120px; margin: 0 auto; padding: 24px 32px 96px">
-<h2 style="margin: 0 0 24px; font-family: 'Roboto Slab', Georgia, serif; font-weight: 700; font-size: 28px">Populaire cases</h2>
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); gap: 24px"><a href="/cases/anva/" style="display: flex; flex-direction: column; text-decoration: none; color: #16191D; background: #FFFFFF; border: 1px solid #E4E0D7; border-radius: 10px; overflow: hidden">
-<img src="/images/anva6-klantdossier-800.webp" srcset="/images/anva6-klantdossier-800.webp 800w, /images/anva6-klantdossier-1600.webp 1600w" sizes="(max-width: 1120px) 100vw, 1056px" width="1600" height="788" alt="Het klantdossier in ANVA 6, met status, versies en tabbladen voor contracten, documenten en notities" loading="lazy" decoding="async" style="display: block; width: 100%; height: 220px; object-fit: cover; object-position: left top; border-radius: 0px; background: #FFFFFF">
-<div style="padding: 24px; display: flex; flex-direction: column; gap: 8px; flex-grow: 1; border-top: 1px solid #E4E0D7">
-<span style="font-size: 14px; font-weight: 600; color: #4B5159">Verzekeringen · Design system · lopend</span>
-<h3 style="margin: 0; font-family: 'Roboto Slab', Georgia, serif; font-weight: 700; font-size: 23px; line-height: 1.25">ANVA – ANVA 6</h3>
-<p style="margin: 0; font-size: 17px; color: #4B5159">Het design system van ANVA 6 ontwikkelen en uitdragen, met Claude en Figma als versneller voor concepting en ontwikkeling.</p>
-<span style="margin-top: auto; padding-top: 10px; font-weight: 600; color: #B3261E">Lees de case →</span>
+<section class="popular">
+<h2 class="popular__title">Populaire cases</h2>
+<div class="case-grid"><article class="case-card">
+<img src="/images/enexis-cover-800.webp" srcset="/images/enexis-cover-800.webp 800w, /images/enexis-cover-1600.webp 1600w" sizes="(max-width: 700px) 100vw, 560px" width="1600" height="1000" alt="" loading="lazy" decoding="async" class="case-card__image">
+<div class="case-card__body">
+<span class="case-card__meta">Energie en netbeheer · Enterprise platform</span>
+<h3 class="case-card__title"><a href="/cases/enexis/" class="case-card__link">Enexis – MIKA</a></h3>
+<p class="case-card__text">Complexe operationele processen vereenvoudigd in één centraal platform.</p>
+<span class="case-card__more" aria-hidden="true">Lees de case →</span>
 </div>
-</a><a href="/cases/enexis/" style="display: flex; flex-direction: column; text-decoration: none; color: #16191D; background: #FFFFFF; border: 1px solid #E4E0D7; border-radius: 10px; overflow: hidden">
-<img src="/images/enexis-mika-scherm-800.webp" srcset="/images/enexis-mika-scherm-800.webp 800w, /images/enexis-mika-scherm-1600.webp 1600w" sizes="(max-width: 1120px) 100vw, 1056px" width="1600" height="735" alt="MIKA-scherm Aanvraag corrigeren met de EAN-correctie open" loading="lazy" decoding="async" style="display: block; width: 100%; height: 220px; object-fit: cover; object-position: left top">
-<div style="padding: 24px; display: flex; flex-direction: column; gap: 8px; flex-grow: 1; border-top: 1px solid #E4E0D7">
-<span style="font-size: 14px; font-weight: 600; color: #4B5159">Energie en netbeheer · Enterprise platform</span>
-<h3 style="margin: 0; font-family: 'Roboto Slab', Georgia, serif; font-weight: 700; font-size: 23px; line-height: 1.25">Enexis – MIKA</h3>
-<p style="margin: 0; font-size: 17px; color: #4B5159">Complexe operationele processen vereenvoudigd in één centraal platform.</p>
-<span style="margin-top: auto; padding-top: 10px; font-weight: 600; color: #B3261E">Lees de case →</span>
+</article><article class="case-card">
+<img sizes="(max-width: 700px) 100vw, 560px" srcset="/images/onderlinge-cover-800.webp 800w, /images/onderlinge-cover-1600.webp 1600w" src="/images/onderlinge-cover-800.webp" width="1600" height="1000" alt="" loading="lazy" decoding="async" class="case-card__image">
+<div class="case-card__body">
+<span class="case-card__meta">Verzekeringen · WCAG en design system</span>
+<h3 class="case-card__title"><a href="/cases/onderlinge/" class="case-card__link">Onderlinge Nederland – Klantportaal</a></h3>
+<p class="case-card__text">Redesign met een eigen design system en WCAG AA als uitgangspunt.</p>
+<span class="case-card__more" aria-hidden="true">Lees de case →</span>
 </div>
-</a><a href="/cases/onderlinge/" style="display: flex; flex-direction: column; text-decoration: none; color: #16191D; background: #FFFFFF; border: 1px solid #E4E0D7; border-radius: 10px; overflow: hidden">
-<img src="/images/onderlinge-portaal-800.webp" width="800" height="422" alt="Het vernieuwde Onderlinge-portaal op een laptop" loading="lazy" decoding="async" style="display: block; width: 100%; height: 220px; object-fit: cover; object-position: center">
-<div style="padding: 24px; display: flex; flex-direction: column; gap: 8px; flex-grow: 1; border-top: 1px solid #E4E0D7">
-<span style="font-size: 14px; font-weight: 600; color: #4B5159">Verzekeringen · WCAG en design system</span>
-<h3 style="margin: 0; font-family: 'Roboto Slab', Georgia, serif; font-weight: 700; font-size: 23px; line-height: 1.25">Onderlinge – Klantportaal</h3>
-<p style="margin: 0; font-size: 17px; color: #4B5159">Redesign met een eigen design system en WCAG AA als uitgangspunt.</p>
-<span style="margin-top: auto; padding-top: 10px; font-weight: 600; color: #B3261E">Lees de case →</span>
+</article><article class="case-card">
+<img sizes="(max-width: 700px) 100vw, 560px" srcset="/images/woonz-cover-800.webp 800w, /images/woonz-cover-1600.webp 1600w" src="/images/woonz-cover-800.webp" width="1600" height="1000" alt="" loading="lazy" decoding="async" class="case-card__image">
+<div class="case-card__body">
+<span class="case-card__meta">Zorg en wonen · Toegankelijkheid</span>
+<h3 class="case-card__title"><a href="/cases/woonz/" class="case-card__link">Woonz – Platform</a></h3>
+<p class="case-card__text">Zoeken en vergelijken toegankelijker gemaakt voor ouderen en hun naasten.</p>
+<span class="case-card__more" aria-hidden="true">Lees de case →</span>
 </div>
-</a></div>
-</section>
-<section id="contact" style="background: #16191D; color: #FFFFFF">
-<div style="max-width: 1120px; margin: 0 auto; padding: 88px 32px; display: flex; flex-wrap: wrap; gap: 40px; align-items: flex-end; justify-content: space-between">
-<div style="max-width: 640px">
-<p style="margin: 0 0 12px; font-size: 15px; font-weight: 600; color: #C3C8CE">Samenwerken</p>
-<h2 style="margin: 0 0 16px; font-family: 'Roboto Slab', Georgia, serif; font-weight: 700; font-size: clamp(30px, 6vw, 40px); hyphens: auto; overflow-wrap: break-word; line-height: 1.15">Op zoek naar een senior designer voor je team?</h2>
-<p style="margin: 0; color: #C3C8CE; font-size: 19px">Ik sta open voor een gesprek over een rol waarin product design, design systems en toegankelijkheid samenkomen. Een mail of LinkedIn-bericht is genoeg.</p>
-</div>
-<div style="display: flex; flex-wrap: wrap; gap: 12px">
-<a class="plausible-event-name=Contact" href="mailto:landozeil@gmail.com" style="background: #FFFFFF; color: #16191D; text-decoration: none; padding: 14px 24px; border-radius: 6px; font-weight: 600">Neem contact op</a>
-<a href="https://www.linkedin.com/in/lando-zeilstra/" style="border: 1.5px solid #FFFFFF; color: #FFFFFF; text-decoration: none; padding: 12.5px 22.5px; border-radius: 6px; font-weight: 600">Bekijk LinkedIn</a>
-</div>
-</div>
+</article></div>
 </section>
 </main>
-<footer style="background: #16191D; border-top: 1px solid #2C3137">
-<div style="max-width: 1120px; margin: 0 auto; padding: 24px 32px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; font-size: 15px; color: #C3C8CE">
+<footer class="site-footer">
+<div class="site-footer__inner">
 <span>© 2026 Lando Zeilstra · Geen cookies; bezoek wordt anoniem gemeten met Plausible.</span>
-<span style="display: flex; gap: 24px"><a class="plausible-event-name=Contact" href="mailto:landozeil@gmail.com" style="color: #FFFFFF">E-mail</a><a href="https://www.linkedin.com/in/lando-zeilstra/" style="color: #FFFFFF">LinkedIn</a><a href="/cv/CV_Lando_Zeilstra.pdf" style="color: #FFFFFF">CV</a></span>
+<span class="site-footer__links"><a class="plausible-event-name=Contact site-footer__link" href="mailto:landozeil@gmail.com">E-mail</a><a href="https://www.linkedin.com/in/lando-zeilstra/" class="site-footer__link">LinkedIn</a><a target="_blank" rel="noopener" href="/cv/CV_Lando_Zeilstra.pdf" class="site-footer__link">CV<span class="visually-hidden"> (opent in een nieuw tabblad)</span></a></span>
 </div>
 </footer>
 </div>
