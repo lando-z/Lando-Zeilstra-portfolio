@@ -41,7 +41,8 @@
 <span class="site-header__logo" aria-hidden="true">LZ</span>
 <span class="site-header__name"><span class="site-header__title">Lando Zeilstra</span><span class="lz-sub text-meta">Senior UX en product designer</span></span>
 </a>
-<nav class="lz-nav site-nav" aria-label="Hoofdmenu">
+<button type="button" class="menu-toggle" aria-expanded="false" aria-controls="hoofdmenu" hidden><span class="menu-toggle__icon" aria-hidden="true"><span></span><span></span><span></span></span><span class="menu-toggle__label">Menu</span></button>
+<nav id="hoofdmenu" class="lz-nav site-nav" aria-label="Hoofdmenu">
 <a href="cases/index.html" class="site-nav__link">Cases</a>
 <a href="over-mij/index.html" class="site-nav__link">Over mij</a>
 <a target="_blank" rel="noopener" href="cv/CV_Lando_Zeilstra.pdf" class="site-nav__cv">CV (pdf)<span class="visually-hidden"> (opent in een nieuw tabblad)</span></a>
@@ -160,5 +161,6 @@
 </div>
 </footer>
 </div>
+<script src="js/menu.js" defer></script>
 </body>
 </html>
