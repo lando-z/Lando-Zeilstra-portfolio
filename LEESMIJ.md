@@ -61,6 +61,12 @@ Nieuwe afbeelding? Gebruik WebP, maak een 800- en een 1600-versie voor brede bee
 
 Deelafbeeldingen (`og/`) hebben dezelfde opzet: rode balk, kicker, titel en je naam links, de cover rechts. Pas je een casetitel aan, vernieuw dan ook `og/<case>.png` en `og/<case>-en.png`.
 
+## Vergroten, hover en printen
+
+- **Afbeelding vergroten**: zet een afbeelding in `<a href="…-1600.webp" class="zoom">…</a>` en laad `js/lightbox.js` onderaan de pagina. Klikken of Enter opent een venster met de grote versie; Esc, de knop Sluiten of een klik naast de afbeelding sluit het en de focus gaat terug. Zonder JavaScript opent de link gewoon de grote afbeelding.
+- **Casekaarten**: bij hover krijgt de kaart een rode rand, een lichte schaduw en een onderstreepte titel.
+- **Printen of opslaan als pdf**: menu, vorige/volgende-balken, contactblok en voettekst vallen weg en afbeeldingen breken niet over een pagina-einde (`@media print` onderaan `style.css`).
+
 ## Getest
 
 Alle pagina's zijn getest met axe-core op WCAG 2.0 tot en met 2.2 (A en AA) plus best practices, op 390 en 1280 pixels breed: geen automatische overtredingen. Ook gecontroleerd: reflow op 320 px, vergrote tekstafstand (1.4.12), kopstructuur, zichtbare focus bij toetsenbordgebruik en de toegankelijkheidsboom (wat een screenreader voorleest). Doe na grote wijzigingen nog een handmatige test met VoiceOver (Cmd+F5).
