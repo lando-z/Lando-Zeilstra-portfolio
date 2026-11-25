@@ -64,7 +64,7 @@ Deelafbeeldingen (`og/`) hebben dezelfde opzet: rode balk, kicker, titel en je n
 ## Menu, vergroten, hover en printen
 
 - **Afbeelding vergroten**: zet een afbeelding in `<a href="…-1600.webp" class="zoom">…</a>` en laad `js/lightbox.js` onderaan de pagina. Klikken of Enter opent een venster met de grote versie; Esc, de knop Sluiten of een klik naast de afbeelding sluit het en de focus gaat terug. Zonder JavaScript opent de link gewoon de grote afbeelding.
-- **Hamburgermenu**: onder 880 px klapt het menu in achter een knop "Menu" (`js/menu.js`, op elke pagina geladen). De knop heeft `aria-expanded`, Esc sluit het menu en zet de focus terug op de knop, en een klik ernaast sluit het ook. Zonder JavaScript blijft het gewone menu zichtbaar. Vanaf 880 px staat het volledige menu in de sticky header.
+- **Hamburgermenu**: onder 880 px klapt het menu in achter een knop "Menu" (`js/menu.js`, op elke pagina geladen). De knop heeft `aria-expanded`, Esc sluit het menu en zet de focus terug op de knop, en een klik ernaast sluit het ook. Zonder JavaScript blijft het gewone menu zichtbaar. Vanaf 880 px staat het volledige menu in de header. De header is op alle schermbreedtes sticky.
 - **Casekaarten**: bij hover krijgt de kaart een rode rand, een lichte schaduw en een onderstreepte titel.
 - **Printen of opslaan als pdf**: menu, vorige/volgende-balken, contactblok en voettekst vallen weg en afbeeldingen breken niet over een pagina-einde (`@media print` onderaan `style.css`).
 
